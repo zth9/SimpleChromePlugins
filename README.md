@@ -4,7 +4,7 @@
 
 > 全屏阅读公众号文章，看代码再也不用拖动滚动条了。
 
-![](http://123.57.236.58/scp/FullWeChat/FullWeChat.png)
+![](http://cdn.javak.cn/FullWeChat.png)
 
 ## 2 CleanAD
 
@@ -12,8 +12,8 @@
 
 **去除前**
 
-![](http://123.57.236.58/scp/CleanAD/CleanAD1.png)
+![](http://cdn.javak.cn/CleanAD1.png)
 
 **去除后**
 
-![](http://123.57.236.58/scp/CleanAD/CleanAD2.png)
+![](http://cdn.javak.cn/CleanAD2.png)
