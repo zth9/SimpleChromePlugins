@@ -1,0 +1,19 @@
+#content_left {
+	position: relative;
+	width: 100% !important;
+}
+
+#content_left>div[style^="display"] {
+	position: absolute;
+	z-index: -996;
+	opacity: 0
+}
+
+#content_left>div {
+	width: 62%;
+	margin-right: 0px;
+}
+
+#content_right {
+	display: none !important;
+}

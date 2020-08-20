@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "CleanAD",
+	"version": "1.0",
+	"description": "一个去除百度搜索广告的插件",
+	"author": "tian90",
+	"icons": {
+		"16": "img/refreshing.png",
+		"48": "img/refreshing.png",
+		"128": "img/refreshing.png"
+	},
+	"browser_action": {
+		"default_icon": "img/refreshing.png"
+	},
+	"content_scripts": [
+		{
+			"css": [ "css/refreshing.css" ],
+			"matches": ["*://www.baidu.com/*"],
+			"run_at": "document_start"
+		}
+	]
+}

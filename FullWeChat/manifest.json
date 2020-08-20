@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "FullWeChat",
+	"version": "1.0",
+	"description": "一个全屏显示公众号文章的插件",
+	"author": "tian90",
+	"icons": {
+		"16": "img/full screen.png",
+		"48": "img/full screen.png",
+		"128": "img/full screen.png"
+	},
+	"browser_action": {
+		"default_icon": "img/full screen.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://mp.weixin.qq.com/*"],
+			"js": ["js/jquery.min.js", "js/fullScreen.js"]
+		}
+	]
+}
